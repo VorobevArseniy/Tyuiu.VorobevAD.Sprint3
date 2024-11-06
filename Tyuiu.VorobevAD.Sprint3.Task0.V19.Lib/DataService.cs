@@ -10,7 +10,7 @@ namespace Tyuiu.VorobevAD.Sprint3.Task0.V19.Lib
 
             for (int i = startValue; i < stopValue; ++i)
             {
-                double term = 1 / Math.Cos(i + 2);
+                double term = 1 / (Math.Cos(i) + 2);
                 S += Math.Pow(term, 2);
             }
             return S;
