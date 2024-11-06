@@ -6,12 +6,11 @@ namespace Tyuiu.VorobevAD.Sprint3.Task0.V19.Lib
     {
         public double GetSumSeries(int startValue, int stopValue)
         {
-            double S = 1;
+            double S = 0;
 
             for (int i = startValue; i < stopValue; ++i)
             {
-                double term = 1 / Math.Cos(i + 2);
-                S += Math.Pow(term, 2);
+                S += Math.Pow((1 / (Math.Cos(i) + 2)), 2);
             }
             return S;
             throw new NotImplementedException();
