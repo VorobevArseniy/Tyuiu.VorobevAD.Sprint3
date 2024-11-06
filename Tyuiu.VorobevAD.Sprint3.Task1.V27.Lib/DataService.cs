@@ -15,6 +15,7 @@ namespace Tyuiu.VorobevAD.Sprint3.Task1.V27.Lib
                 a++;
             }
             return Math.Round(P, 3);
+
             throw new NotImplementedException();
         }
     }
