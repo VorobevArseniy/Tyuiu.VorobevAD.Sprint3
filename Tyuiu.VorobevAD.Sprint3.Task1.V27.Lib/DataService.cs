@@ -7,10 +7,12 @@ namespace Tyuiu.VorobevAD.Sprint3.Task1.V27.Lib
         public double GetMultiplySeries(double value, int startValue, int stopValue)
         {
             double P = startValue;
-            while (startValue <= stopValue)
+            int a = startValue;
+            int b = stopValue;
+            while (a <= b)
             {
-                P *= Math.Pow(1 / (Math.Pow(value, startValue)), 3);
-                startValue++;
+                P *= Math.Pow(1 / Math.Pow(value, a), 3);
+                a++;
             }
             return P;
             throw new NotImplementedException();
