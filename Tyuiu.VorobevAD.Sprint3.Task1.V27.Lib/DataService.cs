@@ -14,7 +14,7 @@ namespace Tyuiu.VorobevAD.Sprint3.Task1.V27.Lib
                 P *= Math.Pow(1 / Math.Pow(value, a), 3);
                 a++;
             }
-            return P;
+            return Math.Round(P, 3);
             throw new NotImplementedException();
         }
     }
