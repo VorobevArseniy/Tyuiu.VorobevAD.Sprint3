@@ -9,7 +9,7 @@ namespace Tyuiu.VorobevAD.Sprint3.Task1.V27.Lib
             double P = 1;
             while (startValue <= stopValue)
             {
-                double term = Math.Pow(1.0 / (startValue * value), 3);
+                double term = Math.Pow(1.0 / (Math.Pow(value, startValue)), 3);
                 P *= term;
                 startValue++;
             }
