@@ -6,9 +6,9 @@ namespace Tyuiu.VorobevAD.Sprint3.Task0.V19.Lib
     {
         public double GetSumSeries(int startValue, int stopValue)
         {
-            double S = 0;
+            double S = startValue;
 
-            for (int i = 1; i < stopValue; ++i)
+            for (int i = 0; i < stopValue; ++i)
             {
                 S += Math.Pow((1 / (Math.Cos(i) + 2)), 2);
             }
