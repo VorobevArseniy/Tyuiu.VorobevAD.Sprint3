@@ -6,7 +6,7 @@ namespace Tyuiu.VorobevAD.Sprint3.Task0.V19.Lib
     {
         public double GetSumSeries(int startValue, int stopValue)
         {
-            double S = 0;
+            double S = 1;
 
             for (int i = startValue; i < stopValue; ++i)
             {
