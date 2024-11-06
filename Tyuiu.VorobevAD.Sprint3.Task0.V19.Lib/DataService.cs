@@ -10,7 +10,7 @@ namespace Tyuiu.VorobevAD.Sprint3.Task0.V19.Lib
 
             for (int i = startValue; i < stopValue; ++i)
             {
-                S = Math.Pow((1 / (Math.Cos(i) + 2)), 2);
+                S += Math.Pow((1 / (Math.Cos(i) + 2)), 2);
             }
             return S;
             throw new NotImplementedException();
