@@ -11,7 +11,7 @@ namespace Tyuiu.VorobevAD.Sprint3.Task2.V1.Lib
             double S = 0;
             do
             {
-                S += Math.Sin(i) * Math.Pow(1 / 2, 2);
+                S += Math.Sin(i) * 1 / 4;
             }
             while (i <= stopValue);
 
