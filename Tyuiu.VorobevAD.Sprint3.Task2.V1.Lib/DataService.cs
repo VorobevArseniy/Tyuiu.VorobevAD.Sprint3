@@ -13,7 +13,7 @@ namespace Tyuiu.VorobevAD.Sprint3.Task2.V1.Lib
             {
                 S += Math.Sin(i) * Math.Pow(1 / 2, 2);
             }
-            while (i < stopValue);
+            while (i <= stopValue);
 
             return S;
 
