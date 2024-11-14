@@ -12,8 +12,9 @@ namespace Tyuiu.VorobevAD.Sprint3.Task2.V1.Lib
             do
             {
                 S += Math.Sin(i) * 1 / 4;
+                i++;
             }
-            while (i <= stopValue);
+            while (i < stopValue);
 
             return S;
 
