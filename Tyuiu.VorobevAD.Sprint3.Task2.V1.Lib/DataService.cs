@@ -16,7 +16,7 @@ namespace Tyuiu.VorobevAD.Sprint3.Task2.V1.Lib
             }
             while (i <= stopValue);
 
-            return S;
+            return Math.Round(S, 3);
 
             throw new NotImplementedException();
         }
