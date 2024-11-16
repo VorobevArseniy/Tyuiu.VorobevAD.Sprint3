@@ -15,7 +15,7 @@ namespace Tyuiu.VorobevAD.Sprint3.Task3.V13.Lib
                 }
             }
 
-            return 4;
+            return ConvertStringToInt(s);
 
             throw new NotImplementedException();
         }
