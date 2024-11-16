@@ -15,7 +15,7 @@ namespace Tyuiu.VorobevAD.Sprint3.Task3.V13.Lib
                 }
             }
 
-            return 5;
+            return 4;
 
             throw new NotImplementedException();
         }
