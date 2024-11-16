@@ -15,7 +15,7 @@ namespace Tyuiu.VorobevAD.Sprint3.Task3.V13.Lib
                 }
             }
 
-            return ConvertStringToInt(s);
+            return Convert.ToInt32(s);
 
             throw new NotImplementedException();
         }
