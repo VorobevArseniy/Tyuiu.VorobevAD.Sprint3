@@ -8,7 +8,7 @@ public class DataService : tyuiu.cources.programming.interfaces.Sprint3.ISprint3
 	{
 
 		double y = 0;
-
+		int in_x = x;
 		for (int i = startValue1; i <= stopValue1; i++)
 		{
 			for (int k = startValue2; k <= stopValue2; k++)
@@ -17,8 +17,7 @@ public class DataService : tyuiu.cources.programming.interfaces.Sprint3.ISprint3
 			}
 		}
 
-		y += Math.Pow(x, 2);
-
+		y += Math.Pow(in_x, 2);
 		return Math.Round(y, 3);
 		throw new NotImplementedException();
 	}
