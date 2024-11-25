@@ -49,6 +49,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.VorobevAD.Sprint3.Tas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.VorobevAD.Sprint3.Task4.V21.Test", "Tyuiu.VorobevAD.Sprint3.Task4.V21.Test\Tyuiu.VorobevAD.Sprint3.Task4.V21.Test.csproj", "{925325DD-EA3D-4BFF-AAD5-027168504B61}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataService", "DataService\DataService.csproj", "{7977F7C8-1487-4FDC-9461-7279543B40B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.VorobevAD.Sprint3.Task5.V16.Lib", "Tyuiu.VorobevAD.Sprint3.Task5.V16.Lib\Tyuiu.VorobevAD.Sprint3.Task5.V16.Lib.csproj", "{BB6784F2-99C6-4223-8B89-652467BC08FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -115,6 +119,14 @@ Global
 		{925325DD-EA3D-4BFF-AAD5-027168504B61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{925325DD-EA3D-4BFF-AAD5-027168504B61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{925325DD-EA3D-4BFF-AAD5-027168504B61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7977F7C8-1487-4FDC-9461-7279543B40B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7977F7C8-1487-4FDC-9461-7279543B40B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7977F7C8-1487-4FDC-9461-7279543B40B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7977F7C8-1487-4FDC-9461-7279543B40B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB6784F2-99C6-4223-8B89-652467BC08FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB6784F2-99C6-4223-8B89-652467BC08FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB6784F2-99C6-4223-8B89-652467BC08FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB6784F2-99C6-4223-8B89-652467BC08FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
