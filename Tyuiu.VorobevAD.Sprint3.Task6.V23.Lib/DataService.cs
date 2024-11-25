@@ -7,9 +7,9 @@ public class DataService : tyuiu.cources.programming.interfaces.Sprint3.ISprint3
 	public int GetSumTheDivisors(int startValue, int stopValue)
 	{
 		int k = 0;
-		for (int i = startValue; i < stopValue; ++i)
+		for (int i = startValue; i <= stopValue; ++i)
 		{
-			for (int j = 11; j < 11; ++j)
+			for (int j = 1; j < 11; ++j)
 			{
 				if (i % j == 0)
 				{
